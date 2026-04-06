@@ -1,3 +1,3 @@
 PAGE_TITLE = "Dr. Li's Home"
-PAGE_ICON = ""
+PAGE_ICON = "⚛️"
 LAYOUT = "wide"

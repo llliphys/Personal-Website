@@ -1,6 +1,6 @@
-# Personal Website Streamlit Draft
+# Personal Website Project
 
-A modular Streamlit-based personal academic website draft.
+A modular project for building a personal (academic) website.
 
 ## Run locally
 

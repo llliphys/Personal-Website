@@ -5,7 +5,7 @@ def render_code_development() -> None:
     st.title("💻 Code Development")
 
     st.write(
-        "This section highlights my experience in scientific software development, "
+        "This section highlights my experience in scientific code development, "
         "workflow automation, and machine learning pipeline implementation for computational materials research."
     )
 

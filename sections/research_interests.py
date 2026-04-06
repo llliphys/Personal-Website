@@ -15,6 +15,9 @@ def render_research_interests() -> None:
     #         <div class="section-card">
     #             <h5>{item['title']}</h5>
     #             <p>{item['description']}</p>
+    #             <div style="text-align:left; margin-top:10px; padding-left:5px;">
+    #                 $$ {item['equations']} $$
+    #             </div>
     #         </div>
     #         """,
     #         unsafe_allow_html=True,
@@ -22,6 +25,7 @@ def render_research_interests() -> None:
 
     for item in RESEARCH_INTERESTS:
         with st.container(border=True):
-            st.subheader(item["title"])
+            # st.subheader(item["title"])
+            st.markdown(f"##### {item['title']}")
             st.write(item["description"])
             st.latex(item["equations"])

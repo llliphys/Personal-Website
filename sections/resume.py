@@ -112,7 +112,7 @@ def render_resume() -> None:
     </div>
 
     - Performed first-principles simulations based on density functional theory with Hubbard U using VASP, including structural relaxation, electronic structure, magnetic ordering, and spin-orbit coupling effects in complex oxide heterostructures.
-    - Constructed maximally localized Wannier functions using WANNIER90 to develop tight-binding Hamiltonians for accurate description of electronic band topology and low-energy electronic properties.
+    - Constructed maximally localized Wannier functions using WANNIER90 to develop tight-binding (TB) Hamiltonians for accurate description of electronic band topology and low-energy electronic properties.
     - Investigated correlation-, strain-, and orientation-dependent effects on atomic structures, electronic states, magnetic moments, and emergent topological phases at oxide heterointerfaces.
     - Established a strong theory-experiment connection by systematically validating simulation outcomes against available experimental results and literature benchmarks.
     """,
@@ -156,7 +156,7 @@ def render_resume() -> None:
             <span>09/2006 – 07/2011</span>
         </div>
         <div style="font-style: italic;">
-            University of Duisburg-Essen, Germany
+            University of Chinese Academy of Sciences, China
         </div>
     </div>
 
@@ -166,7 +166,7 @@ def render_resume() -> None:
             <span>09/2002 – 07/2006</span>
         </div>
         <div style="font-style: italic;">
-            University of Duisburg-Essen, Germany
+            Anhui University, China
         </div>
     </div>
     """,

@@ -14,7 +14,7 @@ streamlit run app.py
 ## Project structure
 
 ```text
-personal_website_streamlit/
+personal_website/
 ├── app.py
 ├── config.py
 ├── requirements.txt

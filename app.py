@@ -37,7 +37,7 @@ from sections.home import render_home
 from sections.resume import render_resume
 from sections.research_interests import render_research_interests
 from sections.publications import render_publications
-from sections.projects import render_projects
+# from sections.projects import render_projects
 from sections.code_development import render_code_development
 from sections.hobbies import render_hobbies
 
@@ -94,8 +94,8 @@ def main() -> None:
         render_publications()
     elif page == "Code Development":
         render_code_development()
-    elif page == "Research Projects":
-        render_projects()
+    # elif page == "Research Projects":
+    #     render_projects()
     elif page == "My Hobbies":
         render_hobbies()
 

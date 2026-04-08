@@ -121,7 +121,7 @@ def render_code_development() -> None:
 
     workflow_tools = [
         "Bash",
-        "HPC",
+        "Slurm",
         "MPI",
         "OpenMP",
     ]

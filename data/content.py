@@ -10,7 +10,6 @@ PROFILE = {
     "email": "longlong.li@outlook.com",
     "linkedin": "https://www.linkedin.com/in/llliphys/",
     "xing": "https://www.xing.com/profile/Longlong_Li042751/",
-    "github": "https://github.com/your-github",
 }
 
 SHORT_BIO = """
@@ -20,130 +19,8 @@ high-performance computing, simulation workflow development, and data-driven mac
 material properties for guiding and accelerating materials applications.
 """
 
-# RESEARCH_INTERESTS = [
-#     {
-#         "title": "Computational Design of Nanomaterials, Nanostructures, and Functional Devices",
-#         "description": (
-#             "Investigation of physical properties of nanomaterials, nanostructures, and functional devices."
-#         ),
-#     },
-#     {
-#         "title": "Density-functional Theory (DFT) for Electronic Structure Modelling",
-#         "description": (
-#             "First-principles DFT modelling of ground-state electronic properties."
-#         ),
-#     },
-#     {
-#         "title": "Many-body Theory (GW/BSE) for Optical Properties Modelling ",
-#         "description": (
-#             "First-principles GW/BSE modelling of excited-state optical properties."
-#         ),
-#     },
-#     {
-#         "title": "Quantum Transport Theory (NEGF) for Transport Device Modelling ",
-#         "description": (
-#             "First-principles NEGF modelling of quantum transport properties."
-#         ),
-#     },
-#     {
-#         "title": "Machine Learning Methods for Materials Properties Forecasting",
-#         "description": (
-#             "Data-driven ML forecasting of materials properties using simulation data."
-#         ),
-#     },
-#     # {
-#     #     "title": "Scientific Computing",
-#     #     "description": (
-#     #         "Development of computational workflows, data pipelines, and reproducible software tools for simulation-driven research."
-#     #     ),
-#     # },
-#     # {
-#     #     "title": "High-Performance Computing",
-#     #     "description": (
-#     #         "Efficient simulation workflows on HPC systems, including large-scale calculations and automation."
-#     #     ),
-#     # },
-# ]
-
-
-# RESEARCH_INTERESTS = [
-#     {
-#         "title": "Computational Design of Nanomaterials, Nanostructures, and Functional Devices",
-#         "description": (
-#             "Investigation of physical properties of nanomaterials, nanostructures, and functional devices."
-#         ),
-#         "equations": r"""
-# Total Energy Minimization:
-# E[\rho] = T[\rho] + V_{\mathrm{ext}}[\rho] + U[\rho] + E_{\mathrm{xc}}[\rho]
-
-# Structure–Property Relation:
-# P = f(\mathbf{R}, \rho, \epsilon(\omega))
-# """
-#     },
-#     {
-#         "title": "Density-functional Theory (DFT) for Electronic Structure Modelling",
-#         "description": (
-#             "First-principles DFT modelling of ground-state electronic properties."
-#         ),
-#         "equations": r"""
-# Kohn–Sham Equation:
-# \left[ -\frac{\hbar^2}{2m} \nabla^2 + V_{\mathrm{eff}}(\mathbf{r}) \right] \psi_i = \epsilon_i \psi_i
-
-# Electron Density:
-# \rho(\mathbf{r}) = \sum_i |\psi_i(\mathbf{r})|^2
-# """
-#     },
-#     {
-#         "title": "Many-body Theory (GW/BSE) for Optical Properties Modelling",
-#         "description": (
-#             "First-principles GW/BSE modelling of excited-state optical properties."
-#         ),
-#         "equations": r"""
-# Quasiparticle Energy (GW):
-# E_n^{QP} = \epsilon_n + \langle \psi_n | \Sigma(E_n) - V_{\mathrm{xc}} | \psi_n \rangle
-
-# Excitonic Equation (BSE):
-# (H_{\mathrm{exc}}) A_S = E_S A_S
-# """
-#     },
-#     {
-#         "title": "Quantum Transport Theory (NEGF) for Transport Device Modelling",
-#         "description": (
-#             "First-principles NEGF modelling of quantum transport properties."
-#         ),
-#         "equations": r"""
-# Current (Landauer–Büttiker):
-# I = \frac{2e}{h} \int T(E) [f_L(E) - f_R(E)] dE
-
-# Green's Function:
-# G(E) = \left[ E I - H - \Sigma_L - \Sigma_R \right]^{-1}
-# """
-#     },
-#     {
-#         "title": "Machine Learning Methods for Materials Properties Forecasting",
-#         "description": (
-#             "Data-driven ML forecasting of materials properties using simulation data."
-#         ),
-#         "equations": r"""
-# Supervised Learning:
-# \hat{y} = f_\theta(x)
-
-# Loss Function:
-# \mathcal{L} = \frac{1}{N} \sum_i (y_i - \hat{y}_i)^2
-# """
-#     },
-# ]
-
 
 RESEARCH_INTERESTS = [
-#     {
-#         "title": "Computational Design of Nanomaterials, Nanostructures, and Functional Devices",
-#         "description": (
-#             "Investigation of physical properties of nanomaterials, nanostructures, and functional devices."
-#         ),
-#         "equations": r"""
-# """
-#     },
     {
         "title": "Density-functional Theory (DFT) for Electronic Structure Modelling",
         "description": (
@@ -491,42 +368,6 @@ PUBLICATIONS = [
     },
 
 ]
-
-PROJECTS = [
-    {
-        "name": "ML for Optical Spectra Prediction",
-        "summary": (
-            "Development of machine learning workflows to predict optical absorption spectra from atomistic descriptors."
-        ),
-        "tools": ["Python", "Scikit-learn", "PyTorch", "DFT data"],
-        "status": "Ongoing",
-    },
-    {
-        "name": "Simulation Workflow Automation",
-        "summary": (
-            "Design of reproducible computational pipelines for high-throughput materials simulations."
-        ),
-        "tools": ["Python", "Bash", "HPC", "Workflow scripting"],
-        "status": "Ongoing",
-    },
-    {
-        "name": "Streamlit Tools for Scientific Computing",
-        "summary": (
-            "Development of user-friendly interfaces for simulation setup, post-processing, and visualization."
-        ),
-        "tools": ["Streamlit", "Python", "Visualization"],
-        "status": "In development",
-    },
-
-
-]
-
-# HOBBIES = [
-#     "Travelling: It is always good to meet different people and and learn different cultures from different perspectives",
-#     "Sporting: It is very relaxed both physically and mentally by doing regular sport activities (such as running and cycling) ",
-#     "Learning: It is always worth to learn new different things from most daily-life to rarely used cases",
-# ]
-
 
 HOBBIES = [
     {

@@ -6,7 +6,7 @@ def render_hobbies() -> None:
     st.title("🎯 My Hobbies")
 
     st.write(
-        "We are human beings. A small collection of hobbies makes life more enjoyable and memorable beyond serious stuff."
+        "Having some hobbies makes our life more enjoyable and memorable beyond serious stuff."
     )
 
     for hobby in HOBBIES:

@@ -38,4 +38,4 @@ personal_website/
 ## Notes
 
 - Add your profile image as `assets/profile.jpg`.
-- Replace the placeholder content in `data/content.py` with your real information.
+- Replace the content in `data/content.py` with your real information.
